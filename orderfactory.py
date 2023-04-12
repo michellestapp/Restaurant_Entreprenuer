@@ -3,14 +3,17 @@ from pasta import Pasta
 from salad import Salad
 
 class OrderFactory:
-    def create_order(self,type, price):
-        type = input(" What would you like to order? Pizza, Pasta, or Salad?")
-        if type == "Pizza":
+    def create_order(self,type):
+         
+    
+        if type == "1":
             return Pizza()
-        elif type == "Pasta":
+        elif type == "2":
             return Pasta()
-        else:
+        elif type == "3":
             return Salad()
+        
+
         
 
 
