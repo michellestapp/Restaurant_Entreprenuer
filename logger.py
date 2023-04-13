@@ -14,6 +14,6 @@ class Logger:
         log = open('log.txt','a')
         log.write(f"TXT#{self.transactional_count}: {order.dish_name} at location {store_number} = ${order.price}. Total Sales for all locations = ${self.daily_sales}\n")
         log.close()
-        print(store_number,order.dish_name, order.price )
+
 log = Logger()
 

@@ -1,3 +1,4 @@
-
-TXT#1: Salad at location 2 = $9. Total Sales for all locations = $9
-TXT#2: Pasta at location 2 = $15. Total Sales for all locations = $24
+TXT#1: Pizza at location 3 = $18. Total Sales for all locations = $18
+TXT#2: Pasta at location 2 = $15. Total Sales for all locations = $33
+TXT#3: Salad at location 1 = $9. Total Sales for all locations = $42
+TXT#4: Pasta at location 1 = $15. Total Sales for all locations = $57
