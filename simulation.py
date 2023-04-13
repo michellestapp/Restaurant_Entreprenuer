@@ -6,8 +6,7 @@ class Simulation:
         pass
 
     def run_simulation(self):
-        meal1 = Franchise()
-        meal2 = Franchise()
-        meal1.place_order()
-        meal2.place_order()
+        meal  = Franchise(2)
+        meal.place_order()        
+        meal.place_order()
 

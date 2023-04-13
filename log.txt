@@ -1,2 +1,3 @@
-TXT#1: Salad at location 1 = $9. Total Sales for all locations = $9
-TXT#1: Pasta at location 3 = $15. Total Sales for all locations = $15
+
+TXT#1: Salad at location 2 = $9. Total Sales for all locations = $9
+TXT#2: Pasta at location 2 = $15. Total Sales for all locations = $24

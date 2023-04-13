@@ -4,11 +4,11 @@ Main Stories
 
 
 DONE - (5 points): As a developer, I want to create my classes and methods according to the UML.
-(5 points): As a developer, I want to create an Order parent class and 3 child classes to represent menu items of my choosing
-(2.5 points): As a developer, I want to create an Order Factory class with a static create_order method.
-(10 points): As a developer, I want to utilize a Factory Pattern in the create_order() method to instantiate instances of the three different Order child classes.
+DONE - (5 points): As a developer, I want to create an Order parent class and 3 child classes to represent menu items of my choosing
+DONE -(2.5 points): As a developer, I want to create an Order Factory class with a static create_order method.
+DONE - (10 points): As a developer, I want to utilize a Factory Pattern in the create_order() method to instantiate instances of  the three different Order child classes.
 This method should accept a string as a parameter (ex “Pizza”) and return the corresponding type of Order child class instantiation (ex Pizza() )
-(2.5 points): As a developer, I want to create a log.txt file to keep track of my business.
+DONE - (2.5 points): As a developer, I want to create a log.txt file to keep track of my business.
 (10 points): As a developer, I want to create a Logger class with a log_transaction() method that will accept an Order object and store number and:
 Increase the Logger’s transaction_count by one
 Add the price of the Order object to the Logger’s daily_sales
