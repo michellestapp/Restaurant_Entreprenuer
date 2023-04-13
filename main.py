@@ -1,9 +1,5 @@
-from orderfactory import OrderFactory
-from franchise import Franchise
+from simulation import Simulation
 
-franchise = Franchise()
-meal1 = franchise.place_order()
-
-# factory = OrderFactory()
-# meal1 = factory.create_order(type)
+start = Simulation()
+start.run_simulation()
 

@@ -3,7 +3,7 @@
 Main Stories
 
 
-(5 points): As a developer, I want to create my classes and methods according to the UML.
+DONE - (5 points): As a developer, I want to create my classes and methods according to the UML.
 (5 points): As a developer, I want to create an Order parent class and 3 child classes to represent menu items of my choosing
 (2.5 points): As a developer, I want to create an Order Factory class with a static create_order method.
 (10 points): As a developer, I want to utilize a Factory Pattern in the create_order() method to instantiate instances of the three different Order child classes.

@@ -8,7 +8,11 @@ class Logger:
 
 
         self.transactional_count += 1
-        print(order)
+    
         self.daily_sales += order.price
+
+        document = open('log.txt','a')
+        document.write(f"TXT#{self.transactional_count}: {order.dish_name} at location {store_number} = ${order.price}. Total Sales for all locations = ${self.daily_sales}\n")
+        document.close()
         print(store_number,order.dish_name, order.price )
 
